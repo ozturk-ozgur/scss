@@ -4,5 +4,16 @@
 nav {
     li {
         list-style-type: none;
+        padding: 5px 10px;
+        margin: 5px;
     }
+
+    a {
+        text-decoration: none;
+        border: 1px solid red;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+
+    
 }

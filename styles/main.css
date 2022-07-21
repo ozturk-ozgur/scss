@@ -1,0 +1,53 @@
+nav li {
+  list-style-type: none;
+  padding: 5px 10px;
+  margin: 5px;
+}
+nav a {
+  text-decoration: none;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+:root {
+  --orange:#fb923c;
+  --green:#3f6212;
+}
+
+h2 {
+  border-bottom: 2px solid var(--green);
+}
+
+button {
+  background-color: var(--orange);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+button {
+  --button-blue: #1e40ef;
+  color: var(--button-blue);
+  border: 1px solid var(--button-blue);
+}
+
+.box {
+  background: var(--c, #cccc);
+}
+
+.special {
+  --c:#14b8a6;
+}
+
+.container {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #2563eb;
+  width: 500px;
+}
+
+.myClass {
+  border-bottom: 10px dotted red;
+}
+
+/*# sourceMappingURL=main.css.map */
